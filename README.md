@@ -1,4 +1,7 @@
 # Clips19
+An Angular application for uploading videos. Features include authentication, routing, video processing and state management.
+
+Website: https://clips2-navy.vercel.app/
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
 
