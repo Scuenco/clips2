@@ -1,0 +1,7 @@
+<app-nav></app-nav>
+
+<router-outlet></router-outlet>
+
+@if(!(auth.authStateWithDelay$| async)) {<!-- Show the modal if the user is not logged in -->
+  <app-auth-modal></app-auth-modal><!-- Angular will add a new instance of this component. -->
+}
